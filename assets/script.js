@@ -1,6 +1,6 @@
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
+        let $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1200, 'easeInOutExpo');
@@ -17,3 +17,19 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+
+
+
+// $(window).on('load', function(){
+//     setTimeout(removeLoader, 666); //wait for page load PLUS two seconds.
+// });
+// function removeLoader(){
+//     $( ".loader" ).fadeOut(500, function() {
+//         // fadeOut complete. Remove the loading div
+//         $( ".loader" ).remove(); //makes page more lightweight
+//     });
+// }
+window.addEventListener('load' , function () {
+    document.querySelector('.loader').remove()
+})
