@@ -267,7 +267,7 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
    max-width: 2000px;
-    height: 100vh;
+    height: 91vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -275,7 +275,7 @@ header {
 }
 @media(max-width:770px) {
     header{
-    height: 85vh;
+    height: 80vh;
     }
 }
 
@@ -657,11 +657,13 @@ section h3.section-subheading {
 section#contact {
     background-color: #222;
     background-image: url(img/Footer.jpg);
-    background-position: center;
+
+    background-position: bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
 }
+
 
 section#contact .section-heading {
     color: #1f2f3f;
@@ -1161,4 +1163,14 @@ body {
 .button:hover .hover-text {
     width: 100%;
     filter: drop-shadow(0 0 20px var(--animation-color))
+}
+span img {
+    width: 300px;
+    height: 250px;
+    border-radius: 62px;
+    box-shadow: 7px 7px 7px #3853a240 ;
+    transition: 666ms;
+}
+span img:hover {
+    transform: scale(102%);
 }
