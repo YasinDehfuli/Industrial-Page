@@ -265,7 +265,7 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
     max-width: 2000px;
-    height: 91vh;
+    height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -429,6 +429,7 @@ section h3.section-subheading {
 @media (min-width: 767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
+
     }
 }
 
@@ -1665,5 +1666,88 @@ svg .checkmark1 .line1, svg .checkmark1 .line2 {
 .wrapper .instagram:hover .tooltip::before {
     background: #E4405F;
     color: #fff;
+}
+
+form{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 10px 10px 24px rgba(166,180,200, 0.7),
+    -10px -10px 24px #fff;
+}
+
+h2{
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px
+}
+
+p{
+    font-weight: 300;
+    font-size: 16px;
+    margin: 9.6px  0px;
+}
+
+input {
+    width: 100%;
+    height: 32px;
+    padding: 20px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color:#ecf0f3;
+    box-shadow:  5px 5px 10px rgba(166,180,200, 0.7),
+    -5px -5px 11px  #fff;
+}
+
+input:hover{
+    box-shadow: inset 5px 5px 10px rgba(166,180,200, 0.7),
+    inset -5px -5px 11px  #fff;
+}
+
+textarea{
+    width: 100%;
+    height: 144px;
+    padding: 20px;
+    margin: 8px 5px;
+    border: none;
+    border-radius: 30px;
+    background-color:#ecf0f3;
+    box-shadow:  5px 5px 10px rgba(166,180,200, 0.7),
+    -5px -5px 11px  #fff;
+    resize:none;
+}
+
+textarea:hover{
+    box-shadow: inset 5px 5px 10px rgba(166,180,200, 0.7),
+    inset -5px -5px 11px  #fff;
+}
+
+form button{
+    background-color: #6b92e5;
+    padding: 15px 25px;
+    margin-top: 70px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 10px 10px 24px rgba(166,180,200, 0.8),
+    -10px -10px 24px #fff;
+}
+form button:hover{
+    background-color: #6780b6;
+    cursor: pointer;
+}
+
+form input {
+    margin-top: 25px ;
+}
+form textarea {
+    margin-top: 25px;
+}
+form button {
+    margin-top: 25px;
 }
 
