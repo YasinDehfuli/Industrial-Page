@@ -1,4 +1,8 @@
 @import "//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css";
+@font-face {
+    font-family: customFont ;
+    src: url("assets/font/brandon.otf");
+}
 
 body {
     overflow-x: hidden;
@@ -262,6 +266,7 @@ header {
 
     background-attachment: fixed;
     background-image: url("img/Header.jpg");
+
     background-position: center center;
     background-repeat: no-repeat;
     max-width: 2000px;
@@ -285,7 +290,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: customFont;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -294,7 +299,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: customFont;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -308,7 +313,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: customFont;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -318,11 +323,13 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family:customFont;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
-        color: #1f2f3f;
+        color: white;
+        font-weight: bold;
+        text-shadow: black 5px 5px 5px;
     }
 }
 
@@ -1403,7 +1410,7 @@ svg .checkmark1 .line1, svg .checkmark1 .line2 {
         font-size: 0.9em;
     }
     100% {
-        font-size: 1.05 emj;
+        font-size: 1.05em;
     }
 }
 
@@ -1415,7 +1422,7 @@ svg .checkmark1 .line1, svg .checkmark1 .line2 {
         font-size: 0.9em;
     }
     100% {
-        font-size: 1.05 emj;
+        font-size: 1.05em;
     }
 }
 
