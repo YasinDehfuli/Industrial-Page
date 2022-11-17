@@ -56,4 +56,4 @@ $(function () {
     $("#contactForm").click(function (e) {
         e.preventDefault()
     })
-})
+});
